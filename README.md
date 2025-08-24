@@ -20,7 +20,7 @@ A **Streamlit UI** is developed for real-time interaction and all work is hosted
 ---
 
 ## 🛠 Tools & Technologies
-- **Languages:** Python  
+- **Languages:** Python , Jupyter Notebook
 - **Libraries:** Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, (TensorFlow/Keras optional)  
 - **Dimensionality Reduction & Feature Selection:** PCA, RFE, Chi-Square Test  
 - **Supervised Models:** Logistic Regression, Decision Tree, Random Forest, SVM  
