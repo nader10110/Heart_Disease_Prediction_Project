@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import joblib
+import os
 
 MODEL_PATH = os.path.join("models", "Final_model.pkl")
 model = joblib.load(MODEL_PATH)
