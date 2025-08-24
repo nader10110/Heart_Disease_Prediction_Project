@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import joblib
 
-MODEL_PATH = r"D:\DATA_ANALYSIS\ML_\1\Heart_Disease_Project\models\Final_model.pkl"
+MODEL_PATH = os.path.join("models", "Final_model.pkl")
 model = joblib.load(MODEL_PATH)
 
 st.title(" Heart Disease Prediction App")
